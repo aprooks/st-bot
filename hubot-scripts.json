@@ -1,8 +1,6 @@
 ["redis-brain.coffee",
  "shipit.coffee",
  "room-info.coffee",
- "script.coffee",
- "setenv.coffee",
  "status.coffee",
  "steam.coffee"
- ]
+]
