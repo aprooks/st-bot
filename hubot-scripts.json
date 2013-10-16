@@ -3,5 +3,5 @@
  "room-info.coffee",
  "status.coffee",
  "steam.coffee",
- "team-city-listener"
+ "team-city-listener.coffee"
 ]
