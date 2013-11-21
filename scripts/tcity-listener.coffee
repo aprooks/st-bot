@@ -35,7 +35,7 @@ module.exports = (robot)->
 
     robot.send user, "#{build.message} and ran on agent:#{build.agentName}"
 
-    soundToPlay = 'http://soundfxnow.com/soundfx/Human-Cheer-SmallCrowd01.mp3'
+    #soundToPlay = 'http://soundfxnow.com/soundfx/Human-Cheer-SmallCrowd01.mp3'
 
     if build.buildResult == 'failure'
       failList = ["dog", "cat", "baby"]
@@ -43,6 +43,6 @@ module.exports = (robot)->
       message = 'bing image fail ' + failList[Math.floor(Math.random() * failList.length)]
       robot.send user, message
 
-    robot.send user, "hubot sound #{soundToPlay}"
+    #robot.send user, "hubot sound #{soundToPlay}"
 
     res.end "that tickles:" + process.env.PORT
