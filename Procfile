@@ -1,1 +1,1 @@
-web: bin/hubot -a hall -n Hubot
+web: bin/hubot -a hipchat -n Hubot
