@@ -2,7 +2,6 @@
  "shipit.coffee",
  "room-info.coffee",
  "status.coffee",
- "steam.coffee",
- "team-city-listener.coffee",
+ "steam.coffee", 
  "teamcity.coffee"
 ]
